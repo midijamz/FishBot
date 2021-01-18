@@ -52,7 +52,7 @@ public class Fish {
 
    private String prefixGen() {
       String[] prefixes = new String[] { "Magical", "Horny", "Fishy", "Fat", "Obese", "Bony", "Grimy", "THICC",
-      "Retarded", "Sassy", "Droopy", "Stinky", "Poopy", "Wild", "Spiny", "Tiny", "Huge", "Poopy"};
+      "Sassy", "Droopy", "Stinky", "Poopy", "Wild", "Spiny", "Tiny", "Huge", "Poopy"};
       int min = 1;
       int max = prefixes.length;
       return prefixes[Math.abs(getRandom(min,max) - 1)];
